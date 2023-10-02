@@ -1120,6 +1120,7 @@
     <div  class="w3-container">  
         <div class="w3-panel  w3-card-4 ">
           <br>
+          <br>
           <center> <h2><b> HTML Images</b></h2> </center>
           <br>
           <p> <b>&#10028;</b> The HTML &lt;img&gt; tag is used to embed an image in a web page.</p>
@@ -1128,10 +1129,10 @@
            <p> Images are not technically inserted into a web page; images are linked to web pages. The &lt;img&gt; tag creates a holding space for the referenced image.</p>  
            <br>
            <p><b>The &lt;img&gt; tag has some attributes:</b></p>
-           <p><b>&#10028;</b> Use the HTML &lt;img&gt; element to define an image. </p>
-           <p><b>&#10028;</b> Use the HTML src attribute to define the URL of the image.</p>
-           <p><b>&#10028;</b> Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed.</p>
-           <p><b>&#10028;</b> Use the HTML width and height attributes or the CSS width and height properties to define the size of the image.</p> <br>
+           <p><b>&#10028;</b> Use the HTML <b>&lt;img&gt;</b>  element to define an image. </p>
+           <p><b>&#10028;</b> Use the HTML <b> src </b> attribute to define the URL of the image.</p>
+           <p><b>&#10028;</b> Use the HTML <b>alt</b> attribute to define an alternate text for an image, if it cannot be displayed.</p>
+           <p><b>&#10028;</b> Use the HTML <b>width and height</b>  attributes or the CSS width and height properties to define the size of the image.</p> <br>
            
            <p><b>Common Image Formats: which are supported in all browsers (Chrome, Edge, Firefox, Safari, Opera)</b></p>
             <br>
@@ -1224,7 +1225,79 @@
   </section>  <section class="home-section">
     <div  class="w3-container">  
         <div class="w3-panel  w3-card-4 ">
-      ====
+      <br>
+      <br>
+      <center> <h2><b> HTML Frameset : Frames & Nested Frames </b></h2> </center>
+       <p> <b>&#10028;</b>The frameset is the collection of frames in the browser window. It is used to specify the number of rows and columns in a frameset.</p>
+       <p><b>Note:</b> <br> <b>&#10028;</b> Do not use HTML &lt;frameset&gt; element as it is deprecated and not supported by HTML5, but you can use &lt;iframe&gt; tag instead. <br>
+        <b>&#10028;</b> Make sure while using &lt;frameset&gt; element then don't use <b> &lt;body&gt; tag.</b>
+         <p> <b>&#10028;</b> By using  &lt;frame src="URL" &gt; to  set  the <b>frames</b> how much decided the number of rows and columns in the frameset. </p>
+      </p>
+       <br>
+      <h3>Frameset has  attributes</h3>
+       <div class="w3-container">
+        <table class="w3-table-all w3-card-2 w3-round-large">
+        <tr>
+          <th> Attribute</th>
+          <th>Value </th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>cols </td>
+          <td>px, %, * </td>
+          <td> It specifies the number and size of column spaces in the frameset.</td>
+        </tr>
+        <tr>
+          <td>rows </td>
+          <td>px, %, * </td>
+          <td> It specifies the number and size of row spaces in the frameset.</td>
+        </tr>
+      </table>
+     </div>
+     <br>  
+     <h3>Example of HTML Frameset: Frame, Nested Frame</h3> 
+         
+   <pre><code class="language-html">
+      
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+  &lt;title&gt;Frameset Demo&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;frameset cols="50%,50%"&gt;
+        
+      &lt;frameset rows="*,*,*"&gt;
+            &lt;frame src=""&gt; &lt;/frame&gt;
+            &lt;frame src=""&gt; &lt;/frame&gt;
+            &lt;frame src=""&gt; &lt;/frame&gt;
+      &lt;/frameset&gt;
+           
+      &lt;frameset rows="*,*"&gt;
+            &lt;frame src=""&gt; &lt;/frame&gt;
+            &lt;frame src=""&gt; &lt;/frame&gt;
+      &lt;/frameset&gt;
+          
+  &lt;/frameset&gt;
+  &lt;/html&gt;
+  
+ </code></pre>
+ <br>
+             
+ <center><div class="w3-container">
+  <a href="HTMLTryitEditor.html" target="_blank">
+  <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-2">Tryit with LIVE Editor</button></a>
+  </div>
+</center>
+<br>
+ <br>
+ <h3> Output (Result) of above code: Example of Frameset: Frame, Nested Frame</h3> 
+
+ <img src="assets/img/html/FramesetOutput.png" class="w3-round-large w3-card-4" alt="anchorwithoutfolder" style="width:100%">
+   
+      <br>
+      <br>
+      <br>
+     
     </div>
    </div>
   </section>  <section class="home-section">
