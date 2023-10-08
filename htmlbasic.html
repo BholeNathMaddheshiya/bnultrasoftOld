@@ -48,68 +48,7 @@
 </head>
 
 <body>
-<!-- </section>  <section class="home-section">
-  <div  class="w3-container">  
-      <div class="w3-panel  w3-card-4 ">
-    <br>
-    <br>
-    <center><h1>Goto on Topic</h1></center>
-    
-    <a href="#HTML Introduction" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4">HTML Introduction</button></a>
-    
-    <a href="#Structure of HTML Page" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4">Structure of HTML Page</button></a>
-    
-   <a href="#What is an HTML Element?" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> What is an HTML Element?</button></a>
-   <a href="#HTML Formatting Tag" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML Formatting Tag</button></a>
-   <a href="#HTML Paragraphs" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML Paragraphs</button></a>
-   <a href="#HTML Headings" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4">HTML Headings</button></a>
-   <a href="#HTML Attributes" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML Attributes</button></a>
-   <a href="#HTML &lt;pre&gt; Tag" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML &lt;pre&gt; Tag</button></a>
-   <a href="#HTML &lt;a&gt; Tag" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML &lt;a&gt; Tag</button></a>
-   <a href="#HTML &lt;a&gt; Tag : By creating link with own HTML file" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML &lt;a&gt; Tag : By creating link with own HTML file</button></a>
-   <a href='#href="#top" or href="#" Tag' >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> href="#top" or href="#" Tag</button></a>
-   <a href="#How to link to another section on the same page?" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> How to link to another section on the same page?</button></a>
-   <a href="#HTML Iframes" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4">HTML Iframes</button></a>
-   <a href="#HTML &lt;a&gt; target Attribute" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML &lt;a&gt; target Attribute</button></a>
-    
-   <a href="#HTML Images" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML Images</button></a>
-   <a href="#HTML Frameset : Frames" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4">HTML Frameset : Frames</button></a>
-   <a href="#HTML Tables" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> HTML Tables</button></a>
-     -->
-   <!-- <a href="#" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> Tag</button></a>
-   <a href="#" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> Tag</button></a>
-   <a href="#" >
-      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-4"> Tag</button></a>
-     -->
-   
-   
-   
-  
 
-    <!-- <br>
-    <br>
-  </div>
- </div>
-</section>     -->
 
 <section id="HTML Introduction" class="home-section">
   <div  class="w3-container">  
@@ -1449,8 +1388,35 @@
         <div class="w3-panel  w3-card-4 ">
       <br>
       <br>
+      <center> <h2><b> HTML Table Padding & Spacing</b></h2> </center>
+      <br>
+      <img src="assets/gif/16-cell-pad-and-spacing.gif" class="w3-round-large w3-card-4" alt="anchorwithoutfolder" style="width:100%">
+ 
+      <br>
+      <br>
+
+      <h3>HTML Table - Cell Padding</h3>
+      <p>Cell padding is the space between the cell edges and the cell content.<br>
+       By default the padding is set to <b>0</b> pixels .</p>
+      <br>
+      <h3>HTML Table - Cell Spacing</h3>
+      <p>Cell spacing is the space between each cell.<br>
+       By default the space is set to <b> 2</b> pixels.</p>
+      <br>
       <pre><code class="language-html">
-      
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        
+    &lt;table border="1" cellpadding="40" cellspacing="10"&gt;
+    &lt;tr&gt; &lt;th&gt; ABC &lt;/th&gt; &lt;th&gt; XYZ &lt;/th&gt;  &lt;/tr&gt;
+    &lt;tr&gt; &lt;td&gt; PQR &lt;/td&gt; &lt;td&gt; LMN  &lt;/td&gt; &lt;/tr&gt;
+    &lt;/table&gt; 
+       
+    &lt;/body&gt;
+    &lt;/html&gt;
       
                   
       </code></pre>
@@ -1467,10 +1433,13 @@
                <br>
       <iframe srcdoc='
       &lt;br&gt;
-     
+      <table border="1" cellpadding="40" cellspacing="10">
+      <tr> <th> ABC </th> <th> XYZ </th>  </tr>
+      <tr> <td> PQR </td> <td> LMN  </td> </tr>
+      </table> 
      
                
-      'src=""  width="100%" height="150px" >
+      'src=""  width="100%" height="270px" >
       &lt;br&gt;
       </iframe>
       
@@ -1484,11 +1453,45 @@
         <div class="w3-panel  w3-card-4 ">
           <br>
           <br>
+          <center> <h2><b> HTML Table Colspan & Rowspan</b></h2> </center>
+          <h4>HTML Table - Colspan</h4>
+          <p> To make a cell span over multiple columns, use the  <b>colspan</b> attribute:</p>
+           <p> <b>Note:</b> The value of the colspan attribute represents the number of columns to span. <b>Eg: colspan="2"</b></p>
           <pre><code class="language-html">
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+            
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;table border="2"&gt;
+  &lt;tr&gt;
+    &lt;th colspan="3"&gt;ABC Public School&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Roll No.&lt;/th&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;1&lt;/td&gt;
+    &lt;td&gt;Rahul Jaiswal&lt;/td&gt;
+    &lt;td&gt;22&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;2&lt;/td&gt;
+    &lt;td&gt;Ajay Kumar&lt;/td&gt;
+    &lt;td&gt;23&lt;/td&gt;
+  &lt;/tr&gt;&lt;tr&gt;
+    &lt;td&gt;3&lt;/td&gt;
+    &lt;td&gt;Parash Arora&lt;/td&gt;
+    &lt;td&gt;25&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;/table&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
           
-          
-                      
-          </code></pre>
+  </code></pre>
             <br>
           
           <center><div class="w3-container">
@@ -1498,11 +1501,34 @@
            </center>
            <br>
           
-          <h2>Output (Result) of above: </h2>
+          <h2>Output (Result) of above: HTML Table Colspan </h2>
                    <br>
           <iframe srcdoc='
           &lt;br&gt;
-         
+          <table border="2">
+            <tr>
+              <th colspan="3">ABC Public School</th>
+            </tr>
+            <tr>
+              <th>Roll No.</th>
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Rahul Jaiswal</td>
+              <td>22</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Ajay Kumar</td>
+              <td>23</td>
+            </tr><tr>
+              <td>3</td>
+              <td>Parash Arora</td>
+              <td>25</td>
+            </tr>
+          </table>
          
                    
           'src=""  width="100%" height="150px" >
@@ -1518,8 +1544,35 @@
         <div class="w3-panel  w3-card-4 ">
           <br>
           <br>
+          <h4>  HTML Table - Rowspan</h4>
+        <p>To make a cell span over multiple rows, use the <b>rowspan</b>  attribute:</p>
+        <p><b>Note:</b> The value of the rowspan attribute represents the number of rows to span. <b>Eg. rowspan="2"</b></p>
+
           <pre><code class="language-html">
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+            
+  &lt;/head&gt;
+  &lt;body&gt;
+            
+  &lt;table border="2"&gt;
           
+  &lt;tr&gt; 
+    &lt;th&gt; Name &lt;/th&gt; 
+    &lt;th&gt; Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;  
+    &lt;td&gt; Gopal &lt;/td&gt; 
+    &lt;td rowspan="2" &gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt; 
+    &lt;td&gt; Kamal &lt;/td&gt; 
+  &lt;/tr&gt;
+            
+  &lt;/table&gt;
+  &lt;/body&gt;
+  &lt;/html&gt;
           
                       
           </code></pre>
@@ -1536,7 +1589,21 @@
                    <br>
           <iframe srcdoc='
           &lt;br&gt;
-         
+          <table border="2">
+          
+            <tr> 
+              <th> Name </th> 
+              <th> Age</th>
+            </tr>
+            <tr>  
+              <td> Gopal </td> 
+              <td rowspan="2" > 23 </td>
+            </tr>
+            <tr> 
+              <td> Kamal </td> 
+            </tr>
+                      
+            </table>
          
                    
           'src=""  width="100%" height="150px" >
@@ -1552,8 +1619,36 @@
         <div class="w3-panel  w3-card-4 ">
           <br>
           <br>
+          <center> <h2><b> HTML Lists</b></h2> </center> <br>
+          <p>HTML lists allow web developers to group a set of related items in lists.</p>
+          <p>There are three different types of HTML lists:</p>
+          <p><b>&#10028;</b> Ordered List or Numbered List (ol) </p>
+          <p><b>&#10028;</b> Unordered List or Bulleted List (ul) </p>
+          <p><b>&#10028;</b> Description List or Definition List (dl) </p>
+          <br>
+           <h4>HTML Ordered List or Numbered List : </h4>
+           <p>An ordered list starts with the <b> &lt;ol&gt;</b>  tag. Each list item starts with the  <b> &lt;li&gt; </b> tag. <br>
+
+            The list items will be marked with numbers (1, 2, 3...) by default:</p> <br>
           <pre><code class="language-html">
-          
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+            
+  &lt;/head&gt;
+  &lt;body&gt;
+            
+  &lt;h4&gt; Fruits Names : &lt;/h4&gt;
+            
+  &lt;ol&gt;
+    &lt;li&gt;Mango&lt;/li&gt;
+    &lt;li&gt;Banana&lt;/li&gt;
+    &lt;li&gt;Grapes&lt;/li&gt;
+    &lt;li&gt;Orange&lt;/li&gt;
+  &lt;/ol&gt;
+            
+  &lt;/body&gt;
+  &lt;/html&gt;
           
                       
           </code></pre>
@@ -1569,14 +1664,168 @@
           <h2>Output (Result) of above: </h2>
                    <br>
           <iframe srcdoc='
-          &lt;br&gt;
-         
+      
+          <h4> Fruits Names : </h4>
+          <ol>
+            <li>Mango</li>
+            <li>Banana</li>
+            <li>Grapes</li>
+            <li>Orange</li>
+          </ol>
          
                    
-          'src=""  width="100%" height="150px" >
+          'src=""  width="100%" height="190px" >
           &lt;br&gt;
           </iframe>
+          <br>
+
+          <h4>Ordered HTML List - The Type Attribute</h4> <br>
+          <div class="w3-container">
+
+
+            <table class="w3-table-all">
+            
+            <tr> <th>Type  </th> <th> Description </th> </tr>
+            <tr> <th>type="1" </th> <td>The list items will be numbered with numbers (default) </td> </tr>
+            <tr> <th>type="A" </th> <td>The list items will be numbered with uppercase letters </td> </tr>
+            <tr> <th>type="a" </th> <td>The list items will be numbered with lowercase letters </td> </tr>
+            <tr> <th>type="I" </th> <td>The list items will be numbered with uppercase roman numbers </td> </tr>
+            <tr> <th>type="i" </th> <td> The list items will be numbered with lowercase roman numbers</td> </tr>
+           
+            </table>
+            
+          </div>
+          <br>
+          <br>
+          <pre><code class="language-html">
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;&lt;/head&gt;
+  &lt;body&gt;
+  &lt;table border="1"&gt;
+    &lt;tr&gt;
+     &lt;td colspan="2"&gt; 
+       &lt;h4&gt;Numbers&lt;/h4&gt;
+
+         &lt;ol type="1" &gt;
+           &lt;li&gt;Coffee&lt;/li&gt;
+           &lt;li&gt;Tea&lt;/li&gt;
+           &lt;li&gt;Milk&lt;/li&gt;
+         &lt;/ol&gt; 
+
+     &lt;/td&gt;
+    &lt;/tr&gt; 
+    
+    &lt;tr&gt;  
+     &lt;td&gt; &lt;h4&gt;Uppercase Letters&lt;/h4&gt;
+
+         &lt;ol type="A"&gt;
+            &lt;li&gt;Coffee&lt;/li&gt;
+            &lt;li&gt;Tea&lt;/li&gt;
+            &lt;li&gt;Milk&lt;/li&gt;
+         &lt;/ol&gt; 
+
+     &lt;/td&gt;
+     &lt;td&gt; &lt;h4&gt; Lowercase Letters&lt;/h4&gt;
+
+         &lt;ol type="a"&gt;
+            &lt;li&gt;Coffee&lt;/li&gt;
+            &lt;li&gt;Tea&lt;/li&gt;
+            &lt;li&gt;Milk&lt;/li&gt;
+         &lt;/ol&gt; 
+
+     &lt;/td&gt;
+    &lt;/tr&gt; 
+    
+    &lt;tr&gt; 
+     &lt;td&gt; &lt;h4&gt;Uppercase Roman:&lt;/h4&gt;
+
+        &lt;ol type="I"&gt;
+           &lt;li&gt;Coffee&lt;/li&gt;
+           &lt;li&gt;Tea&lt;/li&gt;
+           &lt;li&gt;Milk&lt;/li&gt;
+       &lt;/ol&gt; 
+
+     &lt;/td&gt; 
+     &lt;td&gt;&lt;h4&gt;Lowercase Roman&lt;/h4&gt;
+
+        &lt;ol type="i"&gt;
+           &lt;li&gt;Coffee&lt;/li&gt;
+           &lt;li&gt;Tea&lt;/li&gt;
+           &lt;li&gt;Milk&lt;/li&gt;
+        &lt;/ol&gt; 
+
+     &lt;/td&gt;
+    &lt;/tr&gt; 
+  &lt;/table&gt;
+              
+  &lt;/body&gt;
+  &lt;/html&gt;        
+        
+ </code></pre>
+          <br>
           
+          <center><div class="w3-container">
+              <a href="HTMLTryitEditor.html" target="_blank">
+              <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-2">Tryit with LIVE Editor</button></a>
+              </div>
+           </center>
+           <br>
+           <h2>Output (Result) of above: Ordered HTML List - The Type Attribute </h2>
+           <br>
+  <iframe srcdoc='
+  &lt;br&gt;
+  <table border="1">
+    <tr>
+     <td colspan="2"> 
+       <h4>Numbers</h4>
+         <ol type="1" >
+           <li>Coffee</li>
+           <li>Tea</li>
+           <li>Milk</li>
+         </ol> 
+     </td>
+    </tr> 
+    
+    <tr>  
+     <td> <h4>Uppercase Letters</h4>
+         <ol type="A">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+         </ol> 
+     </td>
+     <td> <h4> Lowercase Letters</h4>
+         <ol type="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+         </ol> 
+     </td>
+    </tr> 
+    
+    <tr> 
+     <td> <h4>Uppercase Roman:</h4>
+        <ol type="I">
+           <li>Coffee</li>
+           <li>Tea</li>
+           <li>Milk</li>
+           </ol>  
+     </td> 
+     <td><h4>Lowercase Roman</h4>
+        <ol type="i">
+           <li>Coffee</li>
+           <li>Tea</li>
+           <li>Milk</li>
+        </ol> 
+     </td>
+    </tr> 
+  </table>
+ 
+           
+  'src=""  width="100%" height="480px" >
+  &lt;br&gt;
+  </iframe>
           <br>
           <br>
     </div>
@@ -1586,11 +1835,30 @@
         <div class="w3-panel  w3-card-4 ">
           <br>
           <br>
-          <pre><code class="language-html">
+
+          <h4>HTML Unordered List or Bulleted List :</h4>
+          <p>Unordered HTML List
+            An unordered list starts with the  <b>&lt;ul&gt; </b> tag. Each list item starts with the <b> &lt;li&gt;</b>  tag. <br>
+            
+            The list items will be marked with bullets (small black circles which is also known as <b> disc </b> ) by default:</p>
+         <br>
+         <pre><code class="language-html">
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;body&gt;
+  
+  &lt;h4&gt;Vegetables Names &lt;/h4&gt;
+
+   &lt;ul&gt;
+     &lt;li&gt;Potato&lt;/li&gt;
+     &lt;li&gt;Tomato&lt;/li&gt;
+     &lt;li&gt;Onion&lt;/li&gt;
+   &lt;/ul&gt;  
+
+  &lt;/body&gt;
+  &lt;/html&gt;
           
-          
-                      
-          </code></pre>
+</code></pre>
             <br>
           
           <center><div class="w3-container">
@@ -1600,17 +1868,150 @@
            </center>
            <br>
           
-          <h2>Output (Result) of above: </h2>
+          <h2>Output (Result) of above: HTML Unordered List or Bulleted List </h2>
                    <br>
           <iframe srcdoc='
-          &lt;br&gt;
-         
-         
-                   
-          'src=""  width="100%" height="150px" >
+         <h4>Vegetables Names </h4>
+
+          <ul>
+            <li>Potato</li>
+            <li>Tomato</li>
+            <li>Onion</li>
+          </ul> 
+   
+          'src=""  width="100%" height="180px" >
           &lt;br&gt;
           </iframe>
+
+          <br>
+          <h4>Unordered HTML List: The Type Attribute</h4>
+          <div class="w3-container">
+
+
+            <table class="w3-table-all">
+            
+            <tr> <th>Type  </th> <th> Description </th> </tr>
+            <tr> <th>type="disc" </th> <td>Sets the list item marker to a bullet (default). </td> </tr>
+            <tr> <th>type="circle" </th> <td>Sets the list item marker to a circle. </td> </tr>
+            <tr> <th>type="square" </th> <td>Sets the list item marker to a square. </td> </tr>
+            <tr> <th>type="none" </th> <td>The list items will not be marked </td> </tr>
+           
+            </table>
+            
+          </div>
+          <br>
+   <pre><code class="language-html">
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;&lt;/head&gt;
+  &lt;body&gt;
+  
+  &lt;table border="1"&gt;
+  &lt;tr&gt;  
+     &lt;td&gt; &lt;h4&gt; Unordered List : Type Disc &lt;/h4&gt;
+
+        &lt;ul type="disc"&gt;
+           &lt;li&gt;Unordered Coffee&lt;/li&gt;
+           &lt;li&gt;Tea&lt;/li&gt;
+           &lt;li&gt;Milk&lt;/li&gt;
+        &lt;/ul&gt; 
+
+     &lt;/td&gt;
+     &lt;td&gt; &lt;h4&gt; Unordered List : Type Circle &lt;/h4&gt;
+
+        &lt;ul type="circle"&gt;
+           &lt;li&gt;Coffee&lt;/li&gt;
+           &lt;li&gt;Tea&lt;/li&gt;
+           &lt;li&gt;Milk&lt;/li&gt;
+        &lt;/ul&gt; 
+
+     &lt;/td&gt;
+               
+  &lt;/tr&gt; 
+  
+  &lt;tr&gt; 
+    &lt;td&gt; &lt;h4&gt; Unordered List : Type Square &lt;/h4&gt;
+
+        &lt;ul type="square"&gt;
+          &lt;li&gt;Coffee&lt;/li&gt;
+          &lt;li&gt;Tea&lt;/li&gt;
+          &lt;li&gt;Milk&lt;/li&gt;
+        &lt;/ul&gt;  
+
+    &lt;/td&gt; 
+    &lt;td&gt;&lt;h4&gt;Unordered List : Type None &lt;/h4&gt;
+
+        &lt;ul type="none"&gt;
+          &lt;li&gt;Coffee&lt;/li&gt;
+          &lt;li&gt;Tea&lt;/li&gt;
+          &lt;li&gt;Milk&lt;/li&gt;
+        &lt;/ul&gt; 
+
+    &lt;/td&gt;
+  &lt;/tr&gt; 
+  &lt;/table&gt;
+  
+  &lt;/body&gt;
+  &lt;/html&gt;      
           
+                      
+          </code></pre>
+
+          <br>
+          <center><div class="w3-container">
+            <a href="HTMLTryitEditor.html" target="_blank">
+            <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-2">Tryit with LIVE Editor</button></a>
+            </div>
+         </center>
+         <br>
+        
+        <h2>Output (Result) of above: Unordered HTML List: The Type Attribute </h2>
+                 <br>
+        <iframe srcdoc='
+        &lt;br&gt;
+        <table border="1">
+          <tr>  
+             <td> <h4> Unordered List : Type Disc </h4>
+                <ul type="disc">
+                   <li>Unordered Coffee</li>
+                   <li>Tea</li>
+                   <li>Milk</li>
+                </ul> 
+             </td>
+             <td> <h4> Unordered List : Type Circle </h4>
+                <ul type="circle">
+                   <li>Coffee</li>
+                   <li>Tea</li>
+                   <li>Milk</li>
+                </ul> 
+             </td>
+                       
+          </tr> 
+          
+          <tr> 
+            <td> <h4> Unordered List : Type Square </h4>
+                <ul type="square">
+                  <li>Coffee</li>
+                  <li>Tea</li>
+                  <li>Milk</li>
+                </ul>  
+            </td> 
+            <td><h4>Unordered List : Type None </h4>
+                <ul type="none">
+                  <li>Coffee</li>
+                  <li>Tea</li>
+                  <li>Milk</li>
+                </ul> 
+            </td>
+          </tr> 
+          </table>
+       
+                 
+        'src=""  width="100%" height="350px" >
+        &lt;br&gt;
+        </iframe>
+
+
           <br>
           <br>
     </div>
@@ -1620,8 +2021,28 @@
         <div class="w3-panel  w3-card-4 ">
           <br>
           <br>
-          <pre><code class="language-html">
+          <center> <h2><b> HTML Description List or Definition List</b></h2> </center>
+          <p>A description list is a list of terms, with a description of each term. <br> It is also known as definition list where entries are listed like a dictionary or encyclopedia.</p>
+          <p><b>&#10028;</b> Use the HTML &lt;dl&gt; element to define a description list. <br>
+            <b>&#10028;</b> Use the HTML &lt;dt&gt; element to define the description term. <br>
+            <b>&#10028;</b> Use the HTML &lt;dd&gt; element to describe the term in a description list.</p>
           
+          <pre><code class="language-html">
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;body&gt;
+            
+    &lt;h2&gt;A Description List&lt;/h2&gt;
+           
+       &lt;dl&gt;
+           &lt;dt&gt;Computer : &lt;/dt&gt;
+           &lt;dd&gt;- A computer is an electronic machine which makes our work easy and fast.&lt;/dd&gt;
+           &lt;dt&gt;HTML :&lt;/dt&gt;
+           &lt;dd&gt;- HTML is the standard markup language for creating Web pages.&lt;/dd&gt;
+       &lt;/dl&gt;
+            
+    &lt;/body&gt;
+    &lt;/html&gt;
           
                       
           </code></pre>
@@ -1634,11 +2055,17 @@
            </center>
            <br>
           
-          <h2>Output (Result) of above: </h2>
+          <h2>Output (Result) of above: HTML Description List or Definition List </h2>
                    <br>
           <iframe srcdoc='
-          &lt;br&gt;
-         
+       <h2>A Description List</h2>
+           
+       <dl>
+           <dt>Computer : </dt>
+           <dd>- A computer is an electronic machine which makes our work easy and fast.</dd>
+           <dt>HTML :</dt>
+           <dd>- HTML is the standard markup language for creating Web pages.</dd>
+       </dl>
          
                    
           'src=""  width="100%" height="150px" >
@@ -1765,20 +2192,7 @@
 
 
 
-  <!-- <a href="#" class="back-to-top w3-blue d-flex align-items-center justify-content-center"><i
-    class="bi bi-arrow-up-short"></i></a> -->
 
-<!-- Vendor JS Files -->
-<!-- <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/vendor/php-email-form/validate.js"></script> -->
-
-<!--  BNUltrasoft Home Page JS File -->
-<!-- <script src="assets/js/main.js"></script>   -->
 
 
 </body>
