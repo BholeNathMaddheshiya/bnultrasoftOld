@@ -1826,6 +1826,117 @@
   'src=""  width="100%" height="480px" >
   &lt;br&gt;
   </iframe>
+  <br>
+
+  <h4>Control List Counting :</h4>
+  <p>By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the start attribute:</p>
+  <pre><code class="language-html">
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;body&gt;
+    
+   &lt;ol start="50"&gt;
+     &lt;li&gt;Coffee&lt;/li&gt;
+     &lt;li&gt;Tea&lt;/li&gt;
+     &lt;li&gt;Milk&lt;/li&gt;
+    &lt;/ol&gt;
+    
+   &lt;ol type="I" start="5"&gt;
+      &lt;li&gt;Coffee&lt;/li&gt;
+      &lt;li&gt;Tea&lt;/li&gt;
+      &lt;li&gt;Milk&lt;/li&gt;
+   &lt;/ol&gt;
+    
+   &lt;/body&gt;
+   &lt;/html&gt;     
+          
+                      
+  </code></pre>
+    <br>
+  
+  <center><div class="w3-container">
+      <a href="HTMLTryitEditor.html" target="_blank">
+      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-2">Tryit with LIVE Editor</button></a>
+      </div>
+   </center>
+   <br>
+  
+  <h2>Output (Result) of above: Control List Counting </h2>
+           <br>
+  <iframe srcdoc='
+
+  <ol start="50">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+  
+  <ol type="I" start="5">
+    <li>Coffee</li>
+    <li>Tea</li>
+    <li>Milk</li>
+  </ol>
+ 
+           
+  'src=""  width="100%" height="185px" >
+  &lt;br&gt;
+  </iframe>
+  <br>
+   <h4>Nested HTML Lists </h4>
+   <p>Lists can be nested (list inside list)</p>
+    
+  <pre><code class="language-html">
+ &lt;!DOCTYPE html&gt;
+ &lt;html&gt;
+ &lt;body&gt;
+
+   &lt;ol&gt;
+      &lt;li&gt;Coffee&lt;/li&gt;
+      &lt;li&gt;Tea
+         &lt;ol&gt;
+           &lt;li&gt;Black tea&lt;/li&gt;
+           &lt;li&gt;Green tea&lt;/li&gt;
+         &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Milk&lt;/li&gt;
+   &lt;/ol&gt;
+
+ &lt;/body&gt;
+ &lt;/html&gt;      
+          
+                      
+  </code></pre>
+    <br>
+  
+  <center><div class="w3-container">
+      <a href="HTMLTryitEditor.html" target="_blank">
+      <button  class="w3-button w3-blue w3-text-white w3-hover-blue  w3-round-large w3-card-2">Tryit with LIVE Editor</button></a>
+      </div>
+   </center>
+   <br>
+  
+  <h2>Output (Result) of above: Nested HTML Lists </h2>
+           <br>
+  <iframe srcdoc='
+
+  <ol>
+    <li>Coffee</li>
+    <li>Tea
+       <ol>
+         <li>Black tea</li>
+         <li>Green tea</li>
+       </ol>
+    </li>
+    <li>Milk</li>
+ </ol>
+ 
+           
+  'src=""  width="100%" height="150px" >
+  &lt;br&gt;
+  </iframe>
+ 
+
+
           <br>
           <br>
     </div>
@@ -2081,7 +2192,18 @@
         <div class="w3-panel  w3-card-4 ">
           <br>
           <br>
-          <pre><code class="language-html">
+          <center> <h2><b>HTML Forms</b></h2> </center>
+          <p>Forms are generally used when you want to collect data from the user. In other word, An HTML form facilitates the user to enter data that is to be sent to the server for
+            processing such as name, email address, password, phone number, etc. <br> For example, a user wants to buy a bag online, so he/she has to first enter their shipping address in the address form and then add their payment details in the payment form to place an order.</p>
+          <br>
+          <h4>The <b>&lt;form&gt;</b>  Element : </h4>
+          <p> <b>&#10028;</b> The HTML <b> &lt;form&gt;</b> element is used to create an HTML form for user input: <br>
+           <b>&#10028;</b> The <b> &lt;form&gt; </b>  element is a container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.<br>
+           <b>&#10028;</b> The HTML <b>&lt;form&gt; </b>  element can contain one or more of the following form elements:</p>
+           <br>
+           
+
+            <pre><code class="language-html">
           
           
                       
