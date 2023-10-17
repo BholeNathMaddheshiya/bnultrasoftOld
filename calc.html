@@ -64,14 +64,16 @@
             sheets, each sheet containing cells arranged in rows and columns. Here, One or more Spreadsheet (Worksheet) is known as workbook.</p> <br>
 
 <p><b>Calc : </b>Calc is the spreadsheet component of LibreOffice. You can enter data (usually numerical) in a
-    spreadsheet and then manipulate this data to produce certain results.</p> <br>
+    spreadsheet and then manipulate this data to produce certain results.</p> <br> <br>
 
+    
+ <h3> Elements of Spread Sheet:</h3>
    <p><b>Cell </b>: A particular cell is identified by its row number and column letter.  <br>
      <b>Eg. :  First Cell Name is : A1  and Last Cell Name is XFD1048576. </b> <br>
     
     Cells hold the individual elements  text, numbers, formulas, and so on  that make up the data to display and manipulate.
    
-    Each spreadsheet can have up to <b>10,000 sheets</b>  and each sheet can have a maximum of<b> 1,048,576 rows and 16,384 columns (XFD).</b> </p> <br>
+    <br> Each spreadsheet can have up to <b>10,000 sheets</b>  and each sheet can have a maximum of<b> 1,048,576 rows and 16,384 columns (XFD).</b> </p> <br>
     
 <p><b>Note:</b> When you save a calc file the by default file name is:<b>  Untitled 1 and
     extension name is : (.ods ) OpenDocument SpreadSheet. </b></p> <br>
@@ -359,7 +361,7 @@
      
   
    <br>
-   <center> <h3><b> <u>Labwork for Practice 1:</u></b></h3> </center> <br>
+   <center> <h3><b>Creating of Spread Sheet: <u>Labwork for Practice 1:</u></b></h3> </center> <br>
    <img src="assets/img/calc/LabworkPractice1.png" class="w3-round" alt="image" style="width:100%"> <br> <br>
 
   
@@ -380,29 +382,102 @@
     </div></div>
 
       </section> 
-
+      <section class="home-section">
+        <div id="wordprocessing" class="w3-container">  
+            <div class="w3-panel  w3-card-4 ">
+              <br>
+  
+              <center> <h3><b>Selecting a Cell and Entering Data [text, number, date] in Cells :</u></b></h3> </center> <br>
+              <br>
+              <div class="w3-container">
+    
+  
+                <table class="w3-table  w3-card">
+  
+                    <tr>
+                        <th> Press this key</th>
+                        <th>To do this</th>
+                        
+                    </tr>
+                    <tr>
+                       <td> <b>Ctrl + A</b>  or  <b>Ctrl + Shift + Space</b> </td>
+                       <td> Select All</td>
+                    </tr>
+                    <tr>
+                       <td> <b> Shift + Space</b></td>
+                       <td>  Select Row </td>
+                    </tr>
+                    <tr>
+                      <td> <b> Ctrl + Space</b></td>
+                      <td>  Select Column </td>
+                   </tr>
+                   <tr>
+                    <td> <b> Ctrl + * </b></td>
+                    <td>  Select Data area (When data in range) or Select Self cell (When data is not in range) </td>
+                 </tr>
+                 <tr>
+                  <td> <b> Ctrl + F2</b></td>
+                  <td>  To Open Function Wizard </td>
+               </tr>
+               <tr>
+                <td> <b> Ctrl + `</b></td>
+                <td>  To Show Formula </td>
+             </tr>
+             <tr>
+              <td> <b> Ctrl + ;</b></td>
+              <td>  Insert Date </td>
+           </tr>
+           <tr>
+            <td> <b> Ctrl + Shift + ;</b></td>
+            <td>  Insert Time </td>
+         </tr>
+  
+                </table>
+                </div>
+                <br>     
+  
+              <p><b>Note :</b>When you enter any  <b>text or string</b> in Cell by default alignment is <b>Left</b>.</p>
+             
+              <p><b>Note :</b>When you enter <b>Number, Date , Time </b>  in Cell by default alignment is <b>Right</b>.</p>
+              
+               <br>
+  
+      </div></div>
+      
+      </section> 
 
 
       <section class="home-section">
         <div id="wordprocessing" class="w3-container">  
             <div class="w3-panel  w3-card-4 ">
-              <center> <h3><b> <u> Addresses and References, Absolute and Relative</u></b></h3> </center> <br>
+              <center> <h3><b>Concept of Cell Address [Row
+                and Column] : <u> Addresses and References</u></b></h3> </center> <br>
+               <p><b>Que: </b> What is Cell address and Cell Reference ?</p>
+               <p> <b>Ans: </b> A reference is a cell's address. It identifies a cell or range of cells by referring to the column letter and row number of the cell(s). For example, A1 refers to the cell at the intersection of column A and row 1.</p>
 
-              <h4><b>Relative Addressing:</b></h4> 
+               <br><h3>There are three types of Cell Reference:- </h3>
+              <h4><b>1) </b> Relative Addressing:</h4> 
+              <h4><b>2) </b> Absolute Addressing:</h4> 
+              <h4><b>3) </b> Mixed Addressing:</h4>  <br>
+              <h4><b> 1) Relative Addressing: :</b></h4>
 
               <p>The cell in column A, row 1 is addressed as A1. When you address a range of cell by entering the address of upper left cell, then then a colon (:) and then entering the address of lower right cell.</p> 
               <p><b>Note : </b>By addressing an area in this way, you are making a relative reference to <b>A1:C1</b> </p> <br>
-              <h4><b>Absolute Addressing :</b></h4> 
+              <h4><b> 2) Absolute Addressing :</b></h4> 
       <p>Absolute referencing is the opposite of relative addressing. A dollar sign is placed before each letter and number in an absolute reference, for example, <b>$A$1:$B$2</b> . <br>
 
-        <h4><b>Note:- Mixed Addressing:</b></h4> 
-        <p>When we make the combination of relative cell reference and absolute cell reference. <b>Example : $A1 , A$1</b></p> <br><br>
+        <h4><b> 3)  Mixed Addressing:</b></h4> 
+        <p> <b> Note:-</b> When we make the combination of relative cell reference and absolute cell reference. <b>Example : $A1 , A$1</b></p> <br><br>
 
 
       </p>        
     </div></div>
 
       </section> 
+    </section> 
+
+   
+    
 
       <section class="home-section">
         <div id="wordprocessing" class="w3-container">  
